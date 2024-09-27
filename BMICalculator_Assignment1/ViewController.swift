@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         switch1.isOn = true
+        height2Input.isHidden = true
+        weightInput.placeholder = "kgs"
+        height1Input.placeholder = "cms"
     }
     
     
